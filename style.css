@@ -458,6 +458,45 @@
 }
 
 /* ======================== */
+/* Moodboard Keywords */
+/* ======================== */
+.mood-keywords {
+    display: flex;
+    gap: 48px;
+    font-size: 18px;
+    color: var(--black);
+}
+
+/* ======================== */
+/* Design Overview (3-col) */
+/* ======================== */
+.design-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 40px;
+}
+
+.design-ov-item { text-align: center; }
+
+.design-ov-desc {
+    font-size: 14px;
+    color: var(--gray-body);
+    margin-top: -16px;
+}
+
+/* ======================== */
+/* Concept Sub */
+/* ======================== */
+.concept-sub {
+    font-size: 16px;
+    color: var(--gray-body);
+    margin-bottom: 32px;
+}
+
+/* ======================== */
 /* Reveal Overrides */
 /* ======================== */
 .reveal .slide-number { display: none; }
