@@ -7,7 +7,7 @@
     --black: #000000;
     --white: #ffffff;
     --gray-light: #a6a6a6;
-    --gray-body: #666666;
+    --gray-body: #808080;
     --gray-border: #e0e0e0;
 }
 
@@ -57,7 +57,7 @@
 
 .sf-section {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--black);
     text-align: left;
 }
@@ -101,7 +101,7 @@
 /* ======================== */
 .cover-title {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--black);
     text-align: left;
     line-height: 1.3;
