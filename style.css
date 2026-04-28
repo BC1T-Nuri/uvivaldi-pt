@@ -393,6 +393,40 @@
 }
 
 /* ======================== */
+/* Market Table */
+/* ======================== */
+.market-table {
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+.market-table tr {
+    border-top: 1px solid var(--gray-200);
+}
+
+.market-table tr:last-child {
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.market-table td {
+    padding: 20px 32px 20px 0;
+    color: var(--gray-600);
+    vertical-align: top;
+}
+
+.market-brand {
+    font-weight: 600;
+    color: var(--black) !important;
+    width: 180px;
+}
+
+.market-sub {
+    font-size: 14px;
+    color: var(--gray-400);
+}
+
+/* ======================== */
 /* Challenges */
 /* ======================== */
 .challenge-item {
